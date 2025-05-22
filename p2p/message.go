@@ -4,6 +4,6 @@ import "net"
 
 // RPC represens any arbitrary data tha is being sent over each transport between two nodes in the network
 type RPC struct {
-	Form					net.Addr
+	From					net.Addr
 	payload				[]byte
 }
